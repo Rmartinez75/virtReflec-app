@@ -17,7 +17,7 @@
   font-family: "isocteur";
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
-  background-color: #FFF3F3 !important;
+  /* background-color: #FFF3F3; */
 }
 
 /* @layer base {

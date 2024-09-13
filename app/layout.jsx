@@ -1,4 +1,7 @@
 
+import Head from 'next/head'
+// import { GoogleAnalytics } from '@next/third-parties/google'
+
 import "./globals.css";
 
 
@@ -10,6 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href='/favicon.ico' />
+      </Head>
       <body>
         {children}
       </body>
