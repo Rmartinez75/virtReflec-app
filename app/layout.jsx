@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href='/favicon.ico' />
       </Head>
-      <body>
+      <body className="bg-[#FFF3F3]">
         {children}
       </body>
     </html>
