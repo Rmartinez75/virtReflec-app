@@ -22,38 +22,40 @@ function DropMenu() {
             Firm-Wear
             <MdArrowDropDown className='flex mt-[1px] ml-[10px] text-[20px]' />
         </DropdownMenuTrigger>
-        <DropdownMenuContent className='mt-[15px] ml-[75px] rounded-[10px] w-[200px] shadow-2xl bg-[#FFF3F3]'>
-            <SubDrop />
-            <DropdownMenuItem className='mb-5 flex hover:bg-gray-700'>
+        <DropdownMenuContent className='lg:mt-[15px] lg:ml-[75px] rounded-[10px] lg:w-[200px] w-[350px] shadow-2xl bg-[#FFF3F3]'>
+            <span  className='justify-around lg:justify-start flex lg:mb-0 mt-2 mb-5'>
+            <SubDrop/>
+            </span>
+            <DropdownMenuItem className='mb-5 justify-around lg:justify-start lg:flex hover:bg-gray-700'>
                 <Link 
                     href={'/'} 
-                    className="flex">
-                    <MdCircle className="mt-[5px] mr-4 text-[10px] text-red-600" />
+                    className="lg:flex block">
+                    <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     Pants
                 </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem className='mb-5 hover:bg-gray-700'>
+            <DropdownMenuItem className='mb-5 hover:bg-gray-700 justify-around lg:justify-start lg:flex'>
                 <Link 
                   href={'/'} 
                   className="flex">
-                    <MdCircle className="mt-[5px] mr-4 text-[10px] text-red-600" />
+                    <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     Shorts
                 </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem className='mb-5 hover:bg-gray-700'>
+            <DropdownMenuItem className='mb-5 hover:bg-gray-700 justify-around lg:justify-start lg:flex'>
                 <Link 
                   href={'/'} 
                   className="flex">
-                    <MdCircle className="mt-[5px] mr-4 text-[10px] text-red-600" />
+                    <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     Sheath Warmer
                 </Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className='mb-5 hover:bg-gray-700'>
+            <DropdownMenuItem className='mb-5 hover:bg-gray-700 justify-around lg:justify-start lg:flex'>
                 <Link 
                   href={'/'} 
                   className="flex">
-                    <MdCircle className="mt-[5px] mr-4 text-[10px] text-red-600" />
+                    <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     DataBase
                 </Link>
             </DropdownMenuItem>

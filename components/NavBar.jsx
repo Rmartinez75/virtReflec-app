@@ -11,12 +11,11 @@ import {
 import Link from 'next/link'
 import Image from 'next/image'
 
-import SubDrop from "./SubDrop";
+import DropMenu from './DropMenu';
 
-import { MdArrowDropDown, MdOutlineShoppingCart, MdCircle } from "react-icons/md";
+import { MdMenu, MdOutlineShoppingCart, MdCircle } from "react-icons/md";
 import { IoMdLogIn } from "react-icons/io";
 import { FaRegRegistered } from "react-icons/fa";
-import DropMenu from './DropMenu';
 
 
 function NavBar() {
@@ -37,6 +36,7 @@ function NavBar() {
                         {/* DROPMENU */}
                         <DropMenu />
                     </li>
+                    {/* OPTIONS */}
                     <li className='mr-[58px]'>
                         <Link href={'/'}>About</Link>
                     </li>
@@ -53,18 +53,25 @@ function NavBar() {
                 </ul>
             </div>
         </div>
-        <div>
+        {/* MOBILE MENU */}
+        <div className='flex lg:hidden text-center ml-[25px] p-[10px]'>
+                <Link href={'/'} className='flex gap-2'><Image src='/assets/images/logo5.png' alt='LOGO' width={25} height={20} className='object-contain' />
+                    Metaphysical Abstract Design
+                </Link>
+            </div>
+        <div className="flex lg:hidden justify-center">
+        <div className="flex bg-[#28231d] justify-center lg:hidden w-[200px] h-[25px] border-[0.5px] rounded-[25px] border-solid">
             <DropdownMenu>
-                <DropdownMenuTrigger>Open</DropdownMenuTrigger>
-                <DropdownMenuContent>
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem>Profile</DropdownMenuItem>
-                    <DropdownMenuItem>Billing</DropdownMenuItem>
-                    <DropdownMenuItem>Team</DropdownMenuItem>
-                    <DropdownMenuItem>Subscription</DropdownMenuItem>
+                <DropdownMenuTrigger className="flex focus:outline-none"><MdMenu className='text-white size-[20px] cursor-pointer'/></DropdownMenuTrigger>
+                <DropdownMenuContent className='w-[400px] rounded-[10px] shadow-2xl bg-[#c6bcbc]'>
+                    <DropdownMenuItem className='mb-[25px] mt-[5px] justify-around'><DropMenu /></DropdownMenuItem>
+                    <DropdownMenuItem className='justify-around'><Link href={'/'} className='flex mb-[25px]'>Cart<MdOutlineShoppingCart className='mt-[4px] ml-[10px]' /></Link></DropdownMenuItem>
+                    <DropdownMenuItem className='justify-around'><Link href={'/'} className='flex mb-[25px]'>Login<IoMdLogIn className='mt-[4px] ml-[10px]' /></Link></DropdownMenuItem>
+                    <DropdownMenuItem className='justify-around'><Link href={'/'} className='flex mb-[25px]'>Register<FaRegRegistered className='mt-[4px] ml-[10px]' /></Link></DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
-        </div>        
+        </div>  
+        </div>      
     </>
   )
 }
