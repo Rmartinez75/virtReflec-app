@@ -26,35 +26,35 @@ function DropMenu() {
             <span  className='justify-around lg:justify-start flex lg:mb-0 mt-2 mb-5'>
             <SubDrop/>
             </span>
-            <DropdownMenuItem className='mb-5 justify-around lg:justify-start lg:flex hover:bg-gray-700'>
+            <DropdownMenuItem className='mb-5 justify-around lg:justify-start lg:flex'>
                 <Link 
                     href={'/'} 
-                    className="lg:flex block">
+                    className="lg:flex block hover:bg-gray-500">
                     <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     Pants
                 </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem className='mb-5 hover:bg-gray-700 justify-around lg:justify-start lg:flex'>
+            <DropdownMenuItem className='mb-5 justify-around lg:justify-start lg:flex'>
                 <Link 
                   href={'/'} 
-                  className="flex">
+                  className="flex hover:bg-gray-500">
                     <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     Shorts
                 </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem className='mb-5 hover:bg-gray-700 justify-around lg:justify-start lg:flex'>
+            <DropdownMenuItem className='mb-5 justify-around lg:justify-start lg:flex'>
                 <Link 
                   href={'/'} 
-                  className="flex">
+                  className="flex hover:bg-gray-500">
                     <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     Sheath Warmer
                 </Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className='mb-5 hover:bg-gray-700 justify-around lg:justify-start lg:flex'>
+            <DropdownMenuItem className='mb-5 justify-around lg:justify-start lg:flex'>
                 <Link 
                   href={'/'} 
-                  className="flex">
+                  className="flex hover:bg-gray-500">
                     <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     DataBase
                 </Link>

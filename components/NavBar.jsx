@@ -5,7 +5,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import Link from 'next/link'
@@ -25,7 +24,14 @@ function NavBar() {
         <div className='hidden lg:flex lg:justify-between lg:items-center py-2 lg:sticky top-0 bg-[#28231d] text-[#afaeae] text-[13px]'>
             {/* LOGO AND COMPANY NAME DIV */}
             <div className='text-center ml-[25px] p-[10px]'>
-                <Link href={'/'} className='flex gap-2'><Image src='/assets/images/logo5.png' alt='LOGO' width={25} height={20} className='object-contain' />
+                <Link href={'/'} className='flex gap-2'>
+                    <Image 
+                        src='/assets/images/logo5.png' 
+                        alt='LOGO' 
+                        width={25} 
+                        height={20} 
+                        className='object-contain'
+                    />
                     Metaphysical Abstract Design
                 </Link>
             </div>
@@ -41,21 +47,29 @@ function NavBar() {
                         <Link href={'/'}>About</Link>
                     </li>
                     <li className='mr-[58px] flex'>
-                        <Link href={'/'} className='flex'>Cart<MdOutlineShoppingCart className='mt-[4px] ml-[10px]' /></Link>
+                        <Link href={'/'} className='flex'>Cart<MdOutlineShoppingCart className='mt-[4.5px] ml-[10px]' /></Link>
                     </li>
                     <li className='flex mr-[5px]'>
-                        <Link href={'/'} className='flex'>Login<IoMdLogIn className='mt-[4px] ml-[10px]' /></Link>
+                        <Link href={'/'} className='flex'>Login<IoMdLogIn className='mt-[4.5px] ml-[10px]' /></Link>
                     </li>
                     <span className='mr-[5px] ml-[5px]'>&nbsp; or &nbsp;</span>
                     <li className='mr-[50px] flex'>
-                        <Link href={'/'} className='flex'>Register<FaRegRegistered className='mt-[4px] ml-[10px]' /></Link>
+                        <Link href={'/'} className='flex'>Register<FaRegRegistered className='mt-[4.5px] ml-[10px]' /></Link>
                     </li>
                 </ul>
             </div>
         </div>
+        
         {/* MOBILE MENU */}
         <div className='flex lg:hidden text-center ml-[25px] p-[10px]'>
-                <Link href={'/'} className='flex gap-2'><Image src='/assets/images/logo5.png' alt='LOGO' width={25} height={20} className='object-contain' />
+                <Link href={'/'} className='flex gap-2'>
+                    <Image 
+                        src='/assets/images/logo5.png' 
+                        alt='LOGO' 
+                        width={25} 
+                        height={20} 
+                        className='object-contain' 
+                    />
                     Metaphysical Abstract Design
                 </Link>
             </div>
