@@ -18,7 +18,7 @@ function DropMenu() {
   return (
     <div>
       <DropdownMenu>
-        <DropdownMenuTrigger className='flex focus:outline-none'>
+        <DropdownMenuTrigger className='flex focus:outline-none lg:hover:text-white'>
             Firm-Wear
             <MdArrowDropDown className='flex mt-[1px] ml-[10px] text-[20px]' />
         </DropdownMenuTrigger>

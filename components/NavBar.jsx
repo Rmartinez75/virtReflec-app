@@ -24,7 +24,7 @@ function NavBar() {
         <div className='hidden lg:flex lg:justify-between lg:items-center py-2 lg:sticky top-0 bg-[#28231d] text-[#afaeae] text-[13px]'>
             {/* LOGO AND COMPANY NAME DIV */}
             <div className='text-center ml-[25px] p-[10px]'>
-                <Link href={'/'} className='flex gap-2'>
+                <Link href={'/'} className='flex gap-2 lg:hover:text-white'>
                     <Image 
                         src='/assets/images/logo5.png' 
                         alt='LOGO' 
@@ -38,23 +38,46 @@ function NavBar() {
             {/* DESKTOP NAVBAR OPTIONS */}
             <div className='lg:flex'>
                 <ul className='flex'>
-                    <li className='mr-[58px] flex'>
+                    <li className='mr-[59px] flex'>
                         {/* DROPMENU */}
                         <DropMenu />
                     </li>
                     {/* OPTIONS */}
-                    <li className='mr-[58px]'>
-                        <Link href={'/'}>About</Link>
+                    <li className='mr-[59px]'>
+                        <Link 
+                            href={'/'}
+                            className="lg:hover:text-white"
+                        >
+                            About
+                        </Link>
                     </li>
-                    <li className='mr-[58px] flex'>
-                        <Link href={'/'} className='flex'>Cart<MdOutlineShoppingCart className='mt-[4.5px] ml-[10px]' /></Link>
+                    <li className='mr-[59px] flex'>
+                        <Link 
+                            href={'/'} 
+                            className='flex lg:hover:text-white'
+                        >
+                            Cart
+                            <MdOutlineShoppingCart className='mt-[4.5px] ml-[10px]' />
+                        </Link>
                     </li>
                     <li className='flex mr-[5px]'>
-                        <Link href={'/'} className='flex'>Login<IoMdLogIn className='mt-[4.5px] ml-[10px]' /></Link>
+                        <Link 
+                            href={'/'} 
+                            className='flex lg:hover:text-white'
+                        >
+                            Login
+                            <IoMdLogIn className='mt-[4.5px] ml-[10px]' />
+                        </Link>
                     </li>
                     <span className='mr-[5px] ml-[5px]'>&nbsp; or &nbsp;</span>
                     <li className='mr-[50px] flex'>
-                        <Link href={'/'} className='flex'>Register<FaRegRegistered className='mt-[4.5px] ml-[10px]' /></Link>
+                        <Link 
+                            href={'/'} 
+                            className='flex lg:hover:text-white'
+                        >
+                            Register
+                            <FaRegRegistered className='mt-[4.5px] ml-[10px]' />
+                        </Link>
                     </li>
                 </ul>
             </div>

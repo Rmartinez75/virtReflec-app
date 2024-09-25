@@ -11,8 +11,7 @@ function ProdTree(props) {
                 viewBox="0 0 2191.7277 3020.9506"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 xmlns="http://www.w3.org/2000/svg"
-                {...props}
-            >
+                {...props}            >
                 <defs>
                 <clipPath clipPathUnits="userSpaceOnUse" id="a">
                     <path d="M404.204 0H2048v2265.713H404.204Z" />
@@ -45610,7 +45609,7 @@ function ProdTree(props) {
                     transform="scale(1 -1)"
                     >
                     <tspan
-                        className=""
+                        className="lg:hover:text-[14px]"
                         style={{ strokeWidth: 0.75 }}
                         x={620}
                         y={-2135}
@@ -96565,7 +96564,7 @@ function ProdTree(props) {
                     y={-489.589}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={215} y={-623} className="vest">
+                    <tspan style={{ strokeWidth: 0.75 }} x={210} y={-623} className="lg:hover:text-[145%]">
                         {"[VR: GOLDEN LEAF] "}
                     </tspan>
                     </text>
@@ -96584,7 +96583,7 @@ function ProdTree(props) {
                     y={-489.589}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={415} y={-500} className="vest">
+                    <tspan style={{ strokeWidth: 0.75 }} x={415} y={-500} className="lg:hover:text-[145%]">
                         {"[VR: AIR EXPLORER] "}
                     </tspan>
                     </text>
@@ -96603,7 +96602,7 @@ function ProdTree(props) {
                     y={-489.589}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={205} y={-567} className="vest">
+                    <tspan style={{ strokeWidth: 0.75 }} x={200} y={-567} className="lg:hover:text-[145%]">
                         {"[VR TERRAIN: 1S] "}
                     </tspan>
                     </text>
@@ -96622,7 +96621,7 @@ function ProdTree(props) {
                     y={-489.589}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={187} y={-489.58884} className="vest">
+                    <tspan style={{ strokeWidth: 0.75 }} x={182} y={-489.58884} className="lg:hover:text-[145%]">
                         {"[VR AIR: CANVAS] "}
                     </tspan>
                     </text>
@@ -96641,7 +96640,7 @@ function ProdTree(props) {
                     y={-489.589}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={130} y={-401} className="vest">
+                    <tspan style={{ strokeWidth: 0.75 }} x={123} y={-401} className="lg:hover:text-[145%]">
                         {"[VR AIR: BUBBLE BLACK] "}
                     </tspan>
                     </text>
@@ -96660,7 +96659,7 @@ function ProdTree(props) {
                     y={-489.589}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={175} y={-297} className="vest">
+                    <tspan style={{ strokeWidth: 0.75 }} x={175} y={-297} className="lg:hover:text-[145%]">
                         {"[VR AIR: CARBON] "}
                     </tspan>
                     </text>
@@ -96679,7 +96678,7 @@ function ProdTree(props) {
                     y={-597.11005}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={480} y={-597.11005} className="pants">
+                    <tspan style={{ strokeWidth: 0.75 }} x={475} y={-597.11005} className="lg:hover:text-[145%]">
                         {"[VR: THERMAL PANTS] "}
                     </tspan>
                     </text>
@@ -96698,7 +96697,7 @@ function ProdTree(props) {
                     y={-185.52}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75 }} x={650} y={-505} className="shorts">
+                    <tspan style={{ strokeWidth: 0.75 }} x={650} y={-505} className="lg:hover:text-[145%]">
                         {"[VR: NFC SHORTS] "}
                     </tspan>
                     </text>
@@ -96717,8 +96716,8 @@ function ProdTree(props) {
                     y={-185.52}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75, writingMode: 'vertical-lr' }} x={745} y={-440} className="shorts">
-                        {"[VR: SHEATH WARMER] "}
+                    <tspan style={{ strokeWidth: 0.75 }} x={745} y={-440} className="lg:hover:text-[145%]">
+                    {"[VR: SHEATH WARMER]"}
                     </tspan>
                     </text>
                 </a>
@@ -96736,7 +96735,7 @@ function ProdTree(props) {
                     y={-185.52}
                     transform="scale(1 -1)"
                     >
-                    <tspan style={{ strokeWidth: 0.75, }} x={373} y={-185.52032} className="database">
+                    <tspan style={{ strokeWidth: 0.75, }} x={373} y={-185.52032} className="lg:hover:text-[145%]">
                     {"[VR: CONCEPT: NFC DATABASE] "}
                     </tspan>
                     </text>
