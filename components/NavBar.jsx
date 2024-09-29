@@ -45,7 +45,7 @@ function NavBar() {
                     {/* OPTIONS */}
                     <li className='mr-[59px]'>
                         <Link 
-                            href={'/'}
+                            href={'/about'}
                             className="lg:hover:text-white"
                         >
                             About
@@ -85,29 +85,55 @@ function NavBar() {
         
         {/* MOBILE MENU */}
         <div className='flex lg:hidden text-center ml-[25px] p-[10px]'>
-                <Link href={'/'} className='flex gap-2'>
-                    <Image 
-                        src='/assets/images/logo5.png' 
-                        alt='LOGO' 
-                        width={25} 
-                        height={20} 
-                        className='object-contain' 
-                    />
-                    Metaphysical Abstract Design
-                </Link>
-            </div>
+            <Link href={'/'} className='flex gap-2 text-[14px] mb-2'>
+                <Image 
+                    src='/assets/images/logo5.png' 
+                    alt='LOGO' 
+                    width={25} 
+                    height={20} 
+                    className='object-contain' 
+                />
+                Metaphysical Abstract Design
+            </Link>
+        </div>
         <div className="flex lg:hidden justify-center">
-        <div className="flex bg-[#28231d] justify-center lg:hidden w-[200px] h-[25px] border-[0.5px] rounded-[25px] border-solid">
-            <DropdownMenu>
-                <DropdownMenuTrigger className="flex focus:outline-none"><MdMenu className='text-white size-[20px] cursor-pointer'/></DropdownMenuTrigger>
-                <DropdownMenuContent className='w-[400px] rounded-[10px] shadow-2xl bg-[#c6bcbc]'>
-                    <DropdownMenuItem className='mb-[25px] mt-[5px] justify-around'><DropMenu /></DropdownMenuItem>
-                    <DropdownMenuItem className='justify-around'><Link href={'/'} className='flex mb-[25px]'>Cart<MdOutlineShoppingCart className='mt-[4px] ml-[10px]' /></Link></DropdownMenuItem>
-                    <DropdownMenuItem className='justify-around'><Link href={'/'} className='flex mb-[25px]'>Login<IoMdLogIn className='mt-[4px] ml-[10px]' /></Link></DropdownMenuItem>
-                    <DropdownMenuItem className='justify-around'><Link href={'/'} className='flex mb-[25px]'>Register<FaRegRegistered className='mt-[4px] ml-[10px]' /></Link></DropdownMenuItem>
-                </DropdownMenuContent>
-            </DropdownMenu>
-        </div>  
+            <div className="flex bg-[#28231d] justify-center lg:hidden w-[200px] h-[25px] border-[0.5px] rounded-[25px] border-solid">
+                <DropdownMenu>
+                    <DropdownMenuTrigger className="flex focus:outline-none"><MdMenu className='text-white size-[20px] cursor-pointer'/></DropdownMenuTrigger>
+                    <DropdownMenuContent className='w-[375px] border-none rounded-[10px] shadow-black shadow-2xl bg-[#c6bcbc]'>
+                        <DropdownMenuItem className='mb-[25px] mt-[5px] justify-around'>
+                            <DropMenu />
+                        </DropdownMenuItem>
+                        <DropdownMenuItem className='justify-around'>
+                            <Link 
+                                href={'/'} 
+                                className='flex mb-[25px]'
+                            >
+                                Cart
+                                <MdOutlineShoppingCart className='mt-[4px] ml-[10px]' />
+                            </Link>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem className='justify-around'>
+                            <Link 
+                                href={'/'} 
+                                className='flex mb-[25px]'
+                            >
+                                Login
+                                <IoMdLogIn className='mt-[4px] ml-[10px]' />
+                            </Link>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem className='justify-around'>
+                            <Link 
+                                href={'/'} 
+                                className='flex mb-[25px]'
+                            >
+                                Register
+                                <FaRegRegistered className='mt-[4px] ml-[10px]' />
+                            </Link>
+                        </DropdownMenuItem>
+                    </DropdownMenuContent>
+                </DropdownMenu>
+            </div>  
         </div>      
     </>
   )

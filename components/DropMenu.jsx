@@ -22,7 +22,7 @@ function DropMenu() {
             Firm-Wear
             <MdArrowDropDown className='flex mt-[1px] ml-[10px] text-[20px]' />
         </DropdownMenuTrigger>
-        <DropdownMenuContent className='lg:mt-[15px] lg:ml-[75px] rounded-[10px] lg:w-[200px] w-[350px] shadow-2xl bg-[#FFF3F3]'>
+        <DropdownMenuContent className='lg:mt-[15px] lg:ml-[75px] rounded-[10px] lg:w-[200px] w-[325px] shadow-blacka border-none shadow-2xl bg-[#FFF3F3]'>
             <span  className='justify-around lg:justify-start flex lg:mb-0 mt-2 mb-5'>
             <SubDrop/>
             </span>
@@ -53,7 +53,7 @@ function DropMenu() {
             <DropdownMenuSeparator />
             <DropdownMenuItem className='mb-5 justify-around lg:justify-start lg:flex'>
                 <Link 
-                  href={'/'} 
+                  href={'/comingSoon'} 
                   className="flex hover:bg-gray-500">
                     <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-red-600" />
                     DataBase

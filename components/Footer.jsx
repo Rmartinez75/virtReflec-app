@@ -76,7 +76,7 @@ function Footer() {
             </div>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li>
+                    <li className='mt-4'>
                         <span className='text-[13px] underline font-bold'>
                             COMMUNITY
                         </span>
@@ -121,7 +121,7 @@ function Footer() {
             </div>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li>
+                    <li className='mt-4'>
                         <span className='text-[13px] underline font-bold'>
                             CONTACT
                         </span>

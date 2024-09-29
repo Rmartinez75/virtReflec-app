@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from 'react'
 
+
 function Carousel({
   children: slides,
   autoSlide = false,

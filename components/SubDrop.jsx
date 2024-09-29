@@ -21,7 +21,7 @@ function SubDrop() {
                 <PiArrowLineDownRightFill className="hidden lg:flex lg:ml-[75px] mt-1" />
                 <MdArrowDropDown className='flex lg:hidden mt-[1px] ml-[10px] text-[20px]' />
             </DropdownMenuTrigger>
-            <DropdownMenuContent className='lg:ml-[450px] w-[300px] rounded-[10px] shadow-2xl lg:bg-[#FFF3F3] bg-[#c6bcbc]'>
+            <DropdownMenuContent className='lg:ml-[450px] w-[275px] rounded-[10px] border-none shadow-black shadow-2xl lg:bg-[#FFF3F3] bg-[#c6bcbc]'>
                 <DropdownMenuItem className="lg:justify-start justify-around">
                     <Link href={'/'} className='flex hover:bg-gray-500'>
                         <MdCircle className="hidden lg:flex mt-[5px] mr-4 text-[10px] text-gray-600" />
