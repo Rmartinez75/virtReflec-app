@@ -3,7 +3,7 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { FaArrowUpFromBracket } from "react-icons/fa6"
+import { BiUpArrowCircle } from "react-icons/bi";
 
 
 function ScrollToTopButton() {
@@ -28,7 +28,7 @@ function ScrollToTopButton() {
             style={{textDecoration: 'none'}}
           >
             <span className='fixed bottom-[20px] right-[15px] grid'>
-              <FaArrowUpFromBracket className='text-[25px] text-[#999] font-thin bg-transparent border-transparent' />
+              <BiUpArrowCircle className='text-[40px] text-[#999] font-thin bg-transparent border-transparent' />
             </span>
           </Link>
         )}            
