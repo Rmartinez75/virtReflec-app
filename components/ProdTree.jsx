@@ -2,8 +2,7 @@
 import Link from 'next/link'
 
 function ProdTree(props) {
-  return (
-    
+  return (    
     <div>
         <div className="block lg:hidden">
             <br />

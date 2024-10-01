@@ -19,10 +19,12 @@ function Carousel({
   }, [])
 
   return (
-    <div className='overflow-hidden relative'>
-      <div className='flex max-w-[900px] transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>{slides}
+    <>
+      <div className='overflow-hidden relative'>
+        <div className='flex max-w-[900px] transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>{slides}
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

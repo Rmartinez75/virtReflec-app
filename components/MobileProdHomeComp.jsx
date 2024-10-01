@@ -1,13 +1,13 @@
 import Image from "next/image"
 
-function MobileHomeComp() {
+function MobileProdHomeComp(props) {
   return (
     <>
-        <div className='block'>
+        <div className='block lg:hidden'>
             <div className="flex justify-center">
                 <hr className="h-[9px] w-[50%] rounded-[25px] bg-[#28231d] mt-5 mb-2" />
             </div>
-            <div className="flex justify-center m-3">
+            <div className="flex justify-center m-3" id={props.id}>
                 <Image
                     src={'/assets/images/2.webp'}
                     alt="test"
@@ -34,4 +34,4 @@ function MobileHomeComp() {
   )
 }
 
-export default MobileHomeComp
+export default MobileProdHomeComp

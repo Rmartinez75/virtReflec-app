@@ -6,11 +6,11 @@ import Link from "next/link";
 import Carousel from "./Carousel";
 
 
-function ProdHomePage(props) {
+function DeskProdHomePage(props) {
   return (
-    <div>
+    <>
       <div className="flex mt-5 mb-5 justify-center">
-      <hr className="h-[9px] w-[99%] rounded-lg bg-[#28231d]" />
+        <hr className="h-[9px] w-[99%] rounded-lg bg-[#28231d]" />
       </div>
       <div id={props.id}>
         <div className="hidden lg:flex ml-3">
@@ -76,8 +76,8 @@ function ProdHomePage(props) {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
-export default ProdHomePage;
+export default DeskProdHomePage;

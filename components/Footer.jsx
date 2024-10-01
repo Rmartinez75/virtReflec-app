@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <div>
+    <>
         <div className='block text-center lg:text-left lg:flex lg:justify-center lg:space-x-[20%] mt-[50px] mb-[50px]'>
             <div className='leading-8 lg:leading-7'>
                 <ul>
@@ -143,7 +143,7 @@ function Footer() {
                 &copy;Copyright Metaphysical Abstract Design
             </span>
         </div>
-    </div>
+    </>
   )
 }
 
