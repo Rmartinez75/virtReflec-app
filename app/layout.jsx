@@ -1,5 +1,5 @@
 
-import { GoogleAnalytics } from '@next/third-parties/google'
+// import { GoogleAnalytics } from '@next/third-parties/google'
 
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
       <body className="bg-[#FFF3F3]">
         <NavBar />
         {children}
-        <ScrollToTopButton />
         <Footer />
+        <ScrollToTopButton />
       </body>
-      <GoogleAnalytics gaId="G-91W7PDV5W8" />
+      {/* <GoogleAnalytics gaId="G-91W7PDV5W8" /> */}
     </html>
   );
 }
