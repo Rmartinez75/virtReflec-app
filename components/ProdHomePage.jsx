@@ -23,15 +23,15 @@ function DeskProdHomePage(props) {
                     src={props.src1}
                     alt={props.alt1}
                     width={400}
-                    height={250}
+                    height={0}
                     priority
                   />
                   <Image
                     className="block lg:hidden"
-                    src={props.src1}
-                    alt={props.alt1}
+                    src={props.src3}
+                    alt={props.alt3}
                     width={400}
-                    height={250}
+                    height={0}
                     priority
                   />
                 </Link>
@@ -42,10 +42,11 @@ function DeskProdHomePage(props) {
                     src={props.src2}
                     alt={props.alt2}
                     width={400}
-                    height={250}
+                    height={0}
                     priority
                   />
                 </Link>
+                
               </div>
               <div className="hidden lg:flex p-0.5 rounded-xl w-[404px]">
                 <Carousel autoSlide={true} autoSlideInterval={3500}>
@@ -55,7 +56,7 @@ function DeskProdHomePage(props) {
                       key={i}
                       alt={"Product Image"}
                       width={500}
-                      height={400}
+                      height={0}
                       priority
                     />
                   ))}
@@ -63,7 +64,7 @@ function DeskProdHomePage(props) {
               </div>
             </div>
             <div className="hidden lg:flex">
-              <div className="ml-16 mt-5">
+              <div className="ml-16 mt-10">
                 <Image
                   src={props.schematicsrc}
                   alt={props.schematicalt}
