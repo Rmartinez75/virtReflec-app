@@ -21,7 +21,7 @@ function ScrollToTopButton() {
   }, [])
 
   return (
-    <div className='button-div'>
+    <div className='scroll-smooth'>
       {scrollToTopButton && (
           <Link 
             href='/' 
