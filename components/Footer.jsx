@@ -76,7 +76,7 @@ function Footer() {
             </div>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li className='mt-4'>
+                    <li>
                         <span className='text-[13px] underline font-bold'>
                             COMMUNITY
                         </span>
@@ -117,11 +117,20 @@ function Footer() {
                             Press
                         </Link>
                     </li>
+                    <li className="text-[12px]">
+                        <Link 
+                            href={'/comingSoon'} 
+                            className="" 
+                            target='_blank'
+                        >
+                            Press
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li className='mt-4'>
+                    <li>
                         <span className='text-[13px] underline font-bold'>
                             CONTACT
                         </span>

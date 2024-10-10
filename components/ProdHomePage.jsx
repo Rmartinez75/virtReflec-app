@@ -55,7 +55,7 @@ function DeskProdHomePage(props) {
                       src={s}
                       key={i}
                       alt={"Product Image"}
-                      width={500}
+                      width={props.width}
                       height={0}
                       priority
                     />
@@ -64,11 +64,11 @@ function DeskProdHomePage(props) {
               </div>
             </div>
             <div className="hidden lg:flex">
-              <div className="ml-16 mt-10">
+              <div className="ml-10 mt-10 mb-0">
                 <Image
                   src={props.schematicsrc}
                   alt={props.schematicalt}
-                  width={props.width}
+                  width={props.schemaWidth}
                   height={props.height}
                   priority
                 />
@@ -85,10 +85,10 @@ function DeskProdHomePage(props) {
           <div className="block lg:hidden">
               <div className="mt-[75px]">
                 <Image
-                  src={props.schematicsrc}
-                  alt={props.schematicalt}
-                  width={props.width}
-                  height={props.height}
+                  src={props.schematicsrc2}
+                  alt={props.schematicalt2}
+                  width={props.width2}
+                  height={props.height2 }
                   priority
                 />
               </div>

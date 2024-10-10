@@ -96561,7 +96561,7 @@ function ProdTree(props) {
                     transform="translate(1692.536 1057.055)"
                     />
                 </g>
-                <a xlinkHref="#vest-leaf-section">
+                <a xlinkHref="#golden-leaf">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96580,7 +96580,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#vest-bubblebrown-section">
+                <a xlinkHref="#air-explorer">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96599,7 +96599,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#vest-terrain-section">
+                <a xlinkHref="#terrain-1s">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96618,7 +96618,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#vest-section">
+                <a xlinkHref="#air-canvas">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96637,7 +96637,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#vest-bubbleblack-section">
+                <a xlinkHref="#air-bubbleBlack">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96656,7 +96656,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#vest-aircarbon-section">
+                <a xlinkHref="#air-carbon">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96675,7 +96675,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#pants-section">
+                <a xlinkHref="#thermal-pants">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96694,7 +96694,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#shorts-section">
+                <a xlinkHref="#nfc-shorts">
                     <text
                     xmlSpace="preserve"
                     style={{
@@ -96713,7 +96713,7 @@ function ProdTree(props) {
                     </tspan>
                     </text>
                 </a>
-                <a xlinkHref="#hand-warmer-section">
+                <a xlinkHref="#sheath-warmer">
                     <text
                     xmlSpace="preserve"
                     style={{
