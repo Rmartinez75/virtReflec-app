@@ -101,8 +101,16 @@ function NavBar() {
                 <DropdownMenu>
                     <DropdownMenuTrigger className="flex focus:outline-none"><MdMenu className='text-white size-[20px] cursor-pointer'/></DropdownMenuTrigger>
                     <DropdownMenuContent className='w-[375px] border-none rounded-[10px] shadow-black shadow-2xl bg-[#c6bcbc]'>
-                        <DropdownMenuItem className='mb-[25px] mt-[5px] justify-around'>
+                        <DropdownMenuItem className='mb-[22px] mt-[5px] justify-around'>
                             <DropMenu />
+                        </DropdownMenuItem>
+                        <DropdownMenuItem  className='justify-around'>
+                            <Link
+                                href={'/about'}
+                                className='flex mb-[25px]'
+                            >
+                                About
+                            </Link>
                         </DropdownMenuItem>
                         <DropdownMenuItem className='justify-around'>
                             <Link 

@@ -1,9 +1,10 @@
-
-import React from 'react'
+import ProdPage3images from "@/components/ProdPage3images"
 
 function page() {
   return (
-    <div>page</div>
+    <div>
+      <ProdPage3images />
+    </div>
   )
 }
 

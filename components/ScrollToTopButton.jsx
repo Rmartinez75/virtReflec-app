@@ -24,7 +24,7 @@ function ScrollToTopButton() {
     <div className='scroll-smooth'>
       {scrollToTopButton && (
           <Link 
-            href='/' 
+            href='#top' 
             style={{textDecoration: 'none'}}
           >
             <span className='fixed bottom-[20px] right-[15px] grid'>

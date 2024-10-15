@@ -6,7 +6,7 @@ import Link from "next/link";
 import Carousel from "./Carousel";
 
 
-function DeskProdHomePage(props) {
+function ProdHomePage(props) {
   return (
     <>
       <div className="flex mt-5 mb-5 justify-center">
@@ -99,4 +99,4 @@ function DeskProdHomePage(props) {
   );
 }
 
-export default DeskProdHomePage;
+export default ProdHomePage;
