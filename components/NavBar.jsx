@@ -85,7 +85,7 @@ function NavBar() {
         
         {/* MOBILE MENU */}
         <div className='flex lg:hidden justify-center p-[10px]'>
-            <Link href={'/'} className='flex text-[18px] mb-2'>
+            <Link href={'/'} className='flex text-[16px] mb-2'>
                 <Image 
                     src='/assets/images/logo5.png' 
                     alt='LOGO' 
