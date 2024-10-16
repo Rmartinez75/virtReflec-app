@@ -9,7 +9,7 @@ import Carousel from "./Carousel";
 function ProdHomePage(props) {
   return (
     <>
-      <div className="flex mt-5 mb-5 justify-center">
+      <div className="hidden lg:flex mt-5 mb-5 justify-center">
         <hr className="h-[9px] w-[50%] lg:w-[99%] rounded-[25px] bg-[#28231d] mt-5 mb-0 lg:mt-1 lg:mb-1" />
       </div>
       <div id={props.id}>
@@ -30,7 +30,7 @@ function ProdHomePage(props) {
                     className="block lg:hidden"
                     src={props.src3}
                     alt={props.alt3}
-                    width={400}
+                    width={1500}
                     height={0}
                     priority
                   />

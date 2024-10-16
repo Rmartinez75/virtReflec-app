@@ -84,14 +84,14 @@ function NavBar() {
         </div>
         
         {/* MOBILE MENU */}
-        <div className='flex lg:hidden text-center ml-[25px] p-[10px]'>
-            <Link href={'/'} className='flex gap-2 text-[14px] mb-2'>
+        <div className='flex lg:hidden justify-center p-[10px]'>
+            <Link href={'/'} className='flex text-[18px] mb-2'>
                 <Image 
                     src='/assets/images/logo5.png' 
                     alt='LOGO' 
-                    width={25} 
+                    width={27} 
                     height={20} 
-                    className='object-contain' 
+                    className='object-contain mr-2' 
                 />
                 Metaphysical Abstract Design
             </Link>

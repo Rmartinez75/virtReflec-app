@@ -45968,18 +45968,19 @@ function ProdTree(props) {
                 </g>
             </svg>
             <div className='flex lg:hidden justify-center items-center mt-10'>
-                <div>
-                    <Image 
-                        src={'/assets/images/logo.png'}
-                        alt='logo'
-                        width={75}
-                        height={250}
-                        priority
-                    />
-                </div>
+                <Image 
+                    src={'/assets/images/logo.png'}
+                    alt='logo'
+                    width={75}
+                    height={250}
+                    priority
+                />
             </div>
             <div className='box-content m-4' style={{fontSize: '13px'}}>      
                 Virtual Reflection (VR) originated as an idea of developing a coherent tool that would bridge the gap between our physical and virtual realities. This tool progressively became a soft and flexible technology through integrating techniques using textiles as its bases. The finish products are a unique and balanced blend of intricate sewing and methodic technology placements, transparency being the key. 
+            </div>
+            <div className="flex mt-5 mb-5 justify-center">
+                <hr className="h-[9px] w-[50%] lg:hidden rounded-[25px] bg-[#28231d] mt-5 mb-0" />
             </div>
         </div>
         <div className="hidden lg:flex">
