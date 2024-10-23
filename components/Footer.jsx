@@ -147,7 +147,7 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <div className='bg-[#28231d] text-white text-[10px] p-5'>
+        <div className='bg-[#28231d] text-white text-[10px] p-5 bottom-0'>
             <span className='flex justify-center'>
                 &copy;Copyright Metaphysical Abstract Design
             </span>

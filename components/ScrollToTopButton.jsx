@@ -20,19 +20,28 @@ function ScrollToTopButton() {
     })
   }, [])
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: onabort,
+      behavior: 'smooth'
+    })
+  }
+
+  // href='#top' 
+  //           style={{textDecoration: 'none'}}
+
   return (
-    <div className='scroll-smooth'>
+    <>
       {scrollToTopButton && (
-          <Link 
-            href='#top' 
-            style={{textDecoration: 'none'}}
+          <button 
+            onClick={scrollToTop}
           >
             <span className='fixed bottom-[20px] right-[15px] grid'>
               <BiUpArrowCircle className='text-[40px] text-[#999] font-thin bg-transparent border-transparent' />
             </span>
-          </Link>
+          </button>
         )}            
-    </div>
+    </>
   )
 }
 

@@ -1,7 +1,7 @@
 export const prodHomecompData = [
   {
     id: "air-canvas",
-    href1: "/product",
+    href1: "/productPage/id",
     src1: "/assets/images/prodImages/airCanvas/homePage/canvas1.webp",
     alt1: "Air Canvas Vest",
     href2: "/",

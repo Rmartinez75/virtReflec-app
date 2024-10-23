@@ -9,7 +9,7 @@ import Link from "next/link"
 const page = () => {
   return (
     <div style={{background: '#FFF3F3', fontSize: '12px'}}> 
-      <div className='flex lg:hidden justify-center items-center mt-20'>
+      <div className='flex justify-center items-center mt-20'>
           <Image 
               src={'/assets/images/logo.png'}
               alt='logo'
