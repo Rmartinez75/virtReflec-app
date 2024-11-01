@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
       <body className="bg-[#FFF3F3]">
         <NavBar />
         {children}
-        <Footer />
         <ScrollToTopButton />
+        <Footer />        
       </body>
       {/* <GoogleAnalytics gaId="G-91W7PDV5W8" /> */}
     </html>

@@ -1,11 +1,13 @@
+// app/page.jsx
 
-import HomePage from "./homePage/HomePage";
+import Home from "./products/page";
 
-
-export default function Home() {
+export default function Page() {
   return (
-    <main>
-      <HomePage />
-    </main>
+    <>
+      <div>
+        <Home />
+      </div>
+    </>
   );
 }

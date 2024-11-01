@@ -1,7 +1,7 @@
 
-import AP2 from "/public/assets/images/aboutPage/aboutPage_2"
+import AP2 from "@/public/assets/images/aboutPage/aboutPage_2"
 // import AP1 from "/public/assets/images/aboutPage/aboutPage_1"
-import AP3 from "/public/assets/images/aboutPage/aboutPage_3"
+import AP3 from "@/public/assets/images/aboutPage/aboutPage_3"
 
 import Image from "next/image"
 import Link from "next/link"
